@@ -1,1 +1,1 @@
-{"version":2,"defects":{"App\\Tests\\MaClasseTest::testDisBonjour":7},"times":{"CalculatorTest::testAdd":0.003,"CalculatorTest::testDivide":0,"CalculatorTest::testDivideByZero":0.001,"App\\Tests\\MaClasseTest::testDisBonjour":0.007}}
+{"version":2,"defects":{"App\\Tests\\MaClasseTest::testDisBonjour":7,"CalculatorTest::testAdd":7},"times":{"CalculatorTest::testAdd":0.003,"CalculatorTest::testDivide":0,"CalculatorTest::testDivideByZero":0.001,"App\\Tests\\MaClasseTest::testDisBonjour":0}}

@@ -9,7 +9,7 @@ use PHPUnit\Framework\TestCase;
 
 class MaClasseTest extends TestCase
 {
-    public function testDisBonjour()
+    public function testDisBonjour(): void
     {
         $maClasse = new MaClasse();
         $resultat = $maClasse->disBonjour('david');

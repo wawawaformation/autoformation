@@ -1,13 +1,13 @@
 name: Deploy to VPS
 
 on:
-  push:
-    branches: [ main ]
+  workflow_dispatch:
 
 jobs:
   deploy:
     name: Deploy to VPS via SSH
     runs-on: ubuntu-latest
+   
 
     # Le déploiement ne se fera que si tous les autres jobs (lint/tests) sont verts
     # Si tu veux qu'il s’exécute toujours, supprime "needs"
