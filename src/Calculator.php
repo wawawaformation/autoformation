@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace App;
 
 class Calculator
@@ -12,8 +14,9 @@ class Calculator
     public function divide(float $a, float $b): float
     {
         if ($b == 0) {
-            throw new \InvalidArgumentException("Division by zero");
+            throw new \InvalidArgumentException('Division by zero');
         }
+
         return $a / $b;
     }
 }
