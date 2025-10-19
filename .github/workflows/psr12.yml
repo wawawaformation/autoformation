@@ -1,3 +1,4 @@
+## Test PHP code style with PHP CS Fixer
 name: PHP CS Fixer
 on:
   push:

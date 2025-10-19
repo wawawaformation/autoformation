@@ -1,3 +1,4 @@
+## Test PHPStan analysis in GitHub Actions
 name: PHPStan Analysis
 on:
   push:

@@ -1,3 +1,5 @@
+## Tests for PHP code using PHPUnit
+
 name: PHP CI
 on:
   push:

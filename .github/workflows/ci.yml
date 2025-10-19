@@ -2,11 +2,17 @@ name: Deploy to VPS
 
 on:
   workflow_dispatch:
+    inputs:
+      confirm:
+        description: "⚠️ Taper 'yes' pour confirmer le déploiement sur le VPS"
+        required: true
+        default: "no"
 
 jobs:
   deploy:
     name: Deploy to VPS via SSH
     runs-on: ubuntu-latest
+
    
 
     # Le déploiement ne se fera que si tous les autres jobs (lint/tests) sont verts
